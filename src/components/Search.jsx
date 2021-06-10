@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+const REACT_APP_SERVER_URL =
+	process.env.REACT_APP_SERVER_URL;
 import {
 	makeStyles,
 	Input,
